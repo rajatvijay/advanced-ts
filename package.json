@@ -1,0 +1,27 @@
+{
+  "name": "advanced-ts",
+  "version": "1.0.0",
+  "description": "Learning notes from a few advanced topics in typescript",
+  "main": "dist/index.js",
+  "repository": "https://github.com/rajatvijay/advanced-ts",
+  "author": "RAJAT VIJAY <rajatvijay5@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.21.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test:types": "npx tsd tests-types"
+  },
+  "devDependencies": {
+    "tsd": "^0.13.1",
+    "typescript": "^4.1.2"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "production-ts",
+    "advanced-ts"
+  ]
+}
